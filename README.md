@@ -39,7 +39,6 @@ organization={IEEE}
 ```
 * O.Ulucan, D.Karakaya, and M.Turkan.(2020) A large-scale dataset for fish segmentation and classification.
 In Conf. Innovations Intell. Syst. Appli. (ASYU)
-Purpose of the work
 
 ## Data Gathering Equipment and Data Augmentation
 
@@ -52,7 +51,7 @@ by preserving the aspect ratio. After resizing the images, all labels in the dat
 At the end of the augmentation process, the number of total images for each class became 2000; 1000 for the RGB fish images
 and 1000 for their pair-wise ground truth labels.
 
-## Description of the data in this data set
+## Description of the dataset
 
 The dataset contains 9 different seafood types. For each class, there are 1000 augmented images and their pair-wise augmented ground truths.
 Each class can be found in the "Fish_Dataset" file with their ground truth labels. All images for each class are ordered from "00000.png" to "01000.png".
