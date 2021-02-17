@@ -8,11 +8,16 @@ Corresponding author: M. Turkan
 
 Contact Information: mehmet.turkan@ieu.edu.tr
 
+## TO DOWNLOAD THE DATASET CLICK [HERE](https://www.kaggle.com/crowww/a-large-scale-fish-dataset) 
+
 ## General Introduction
 
 This dataset contains 9 different seafood types collected from a supermarket in Izmir, Turkey
 for a university-industry collaboration project at Izmir University of Economics, and this work
 was published in ASYU 2020.
+
+* Paper : [A Large-Scale Dataset for Fish Segmentation and Classification](https://ieeexplore.ieee.org/abstract/document/9259867)
+
 The dataset includes gilt head bream, red sea bream, sea bass, red mullet, horse mackerel,
 black sea sprat, striped red mullet, trout, shrimp image samples.
 
@@ -53,5 +58,3 @@ The dataset contains 9 different seafood types. For each class, there are 1000 a
 Each class can be found in the "Fish_Dataset" file with their ground truth labels. All images for each class are ordered from "00000.png" to "01000.png".
 
 For example, if you want to access the ground truth images of the shrimp in the dataset, the order should be followed is "Fish->Shrimp->Shrimp GT".
-
-## TO DOWNLOAD THE DATASET CLICK [HERE](https://www.kaggle.com/crowww/a-large-scale-fish-dataset) 
